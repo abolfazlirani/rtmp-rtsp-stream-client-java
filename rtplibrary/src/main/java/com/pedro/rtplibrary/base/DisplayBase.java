@@ -390,18 +390,28 @@ public abstract class DisplayBase implements GetAacData, GetVideoData, GetMicrop
       glInterface.addMediaCodecSurface(videoEncoder.getInputSurface());
     }
     Surface surface =
-        (glInterface != null) ? glInterface.getSurface() : videoEncoder.getInputSurface();
+            (glInterface != null) ? glInterface.getSurface() : videoEncoder.getInputSurface();
     if (mediaProjection == null) {
       mediaProjection = mediaProjectionManager.getMediaProjection(resultCode, data);
+
+      mediaProjection.registerCallback(new MediaProjection.Callback() {
+        @Override
+        public void onStop() {
+          super.onStop();
+          Log.d("RtmpDisplay", "MediaProjection stopped");
+          //stopStream();
+        }
+      }, new Handler(Looper.getMainLooper()));
     }
-    if (glInterface != null && videoEncoder.getRotation() == 90
-        || videoEncoder.getRotation() == 270) {
+    if ((glInterface != null && videoEncoder.getRotation() == 90)
+            || videoEncoder.getRotation() == 270) {
       mediaProjection.createVirtualDisplay("Stream Display", videoEncoder.getHeight(),
               videoEncoder.getWidth(), dpi, 0, surface, null, null);
     } else {
       mediaProjection.createVirtualDisplay("Stream Display", videoEncoder.getWidth(),
               videoEncoder.getHeight(), dpi, 0, surface, null, null);
     }
+
     if (audioInitialized) microphoneManager.start();
   }
 
