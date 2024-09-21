@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.flv.video
+package com.abolfazlirani.rtmp.flv.video
 
 /**
  * Created by pedro on 1/05/21.

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.pedro.rtsp.rtsp
+package com.abolfazlirani.rtsp.rtsp
 
-import com.pedro.rtsp.rtsp.commands.SdpBody
-import com.pedro.rtsp.utils.RtpConstants
+import com.abolfazlirani.rtsp.rtsp.commands.SdpBody
+import com.abolfazlirani.rtsp.utils.RtpConstants
 import org.junit.Assert.assertTrue
 import org.junit.Test
 

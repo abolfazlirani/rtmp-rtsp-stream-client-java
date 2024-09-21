@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.amf
+package com.abolfazlirani.rtmp.amf
 
 /**
  * Created by pedro on 8/04/21.

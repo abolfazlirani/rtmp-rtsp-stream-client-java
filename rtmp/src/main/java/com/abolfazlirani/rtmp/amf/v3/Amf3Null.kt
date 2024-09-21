@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.amf.v3
+package com.abolfazlirani.rtmp.amf.v3
 
 import java.io.InputStream
 import java.io.OutputStream

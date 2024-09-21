@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp
+package com.abolfazlirani.rtmp.rtmp
 
 import android.util.Log
-import com.pedro.rtmp.amf.v0.*
-import com.pedro.rtmp.flv.FlvPacket
-import com.pedro.rtmp.rtmp.chunk.ChunkStreamId
-import com.pedro.rtmp.rtmp.chunk.ChunkType
-import com.pedro.rtmp.rtmp.message.*
-import com.pedro.rtmp.rtmp.message.command.CommandAmf0
-import com.pedro.rtmp.rtmp.message.control.Event
-import com.pedro.rtmp.rtmp.message.control.Type
-import com.pedro.rtmp.rtmp.message.control.UserControl
-import com.pedro.rtmp.rtmp.message.data.DataAmf0
-import com.pedro.rtmp.utils.CommandSessionHistory
-import com.pedro.rtmp.utils.RtmpConfig
-import com.pedro.rtmp.utils.socket.RtmpSocket
+import com.abolfazlirani.rtmp.amf.v0.*
+import com.abolfazlirani.rtmp.flv.FlvPacket
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkStreamId
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkType
+import com.abolfazlirani.rtmp.rtmp.message.*
+import com.abolfazlirani.rtmp.rtmp.message.command.CommandAmf0
+import com.abolfazlirani.rtmp.rtmp.message.control.Event
+import com.abolfazlirani.rtmp.rtmp.message.control.Type
+import com.abolfazlirani.rtmp.rtmp.message.control.UserControl
+import com.abolfazlirani.rtmp.rtmp.message.data.DataAmf0
+import com.abolfazlirani.rtmp.utils.CommandSessionHistory
+import com.abolfazlirani.rtmp.utils.RtmpConfig
+import com.abolfazlirani.rtmp.utils.socket.RtmpSocket
 import java.io.*
 
 /**

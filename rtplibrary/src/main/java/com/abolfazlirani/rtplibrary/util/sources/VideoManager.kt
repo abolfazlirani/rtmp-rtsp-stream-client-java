@@ -1,4 +1,4 @@
-package com.pedro.rtplibrary.util.sources
+package com.abolfazlirani.rtplibrary.util.sources
 
 import android.content.Context
 import android.graphics.SurfaceTexture
@@ -13,9 +13,9 @@ import android.util.Size
 import android.view.MotionEvent
 import android.view.Surface
 import androidx.annotation.RequiresApi
-import com.pedro.encoder.input.video.Camera1ApiManager
-import com.pedro.encoder.input.video.Camera2ApiManager
-import com.pedro.encoder.input.video.CameraHelper
+import com.abolfazlirani.encoder.input.video.Camera1ApiManager
+import com.abolfazlirani.encoder.input.video.Camera2ApiManager
+import com.abolfazlirani.encoder.input.video.CameraHelper
 
 
 /**

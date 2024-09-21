@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.pedro.rtsp.rtp
+package com.abolfazlirani.rtsp.rtp
 
 import android.media.MediaCodec
-import com.pedro.rtsp.rtp.packets.H264Packet
-import com.pedro.rtsp.rtp.packets.VideoPacketCallback
-import com.pedro.rtsp.rtsp.RtpFrame
-import com.pedro.rtsp.utils.RtpConstants
+import com.abolfazlirani.rtsp.rtp.packets.H264Packet
+import com.abolfazlirani.rtsp.rtp.packets.VideoPacketCallback
+import com.abolfazlirani.rtsp.rtsp.RtpFrame
+import com.abolfazlirani.rtsp.utils.RtpConstants
 import org.junit.Assert.*
 import org.junit.Test
 import org.junit.runner.RunWith

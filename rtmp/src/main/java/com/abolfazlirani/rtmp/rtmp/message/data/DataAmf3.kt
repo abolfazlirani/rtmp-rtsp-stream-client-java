@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp.message.data
+package com.abolfazlirani.rtmp.rtmp.message.data
 
-import com.pedro.rtmp.amf.v3.Amf3Data
-import com.pedro.rtmp.amf.v3.Amf3String
-import com.pedro.rtmp.rtmp.chunk.ChunkStreamId
-import com.pedro.rtmp.rtmp.chunk.ChunkType
-import com.pedro.rtmp.rtmp.message.BasicHeader
-import com.pedro.rtmp.rtmp.message.MessageType
+import com.abolfazlirani.rtmp.amf.v3.Amf3Data
+import com.abolfazlirani.rtmp.amf.v3.Amf3String
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkStreamId
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkType
+import com.abolfazlirani.rtmp.rtmp.message.BasicHeader
+import com.abolfazlirani.rtmp.rtmp.message.MessageType
 import java.io.ByteArrayOutputStream
 import java.io.InputStream
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.amf.v3
+package com.abolfazlirani.rtmp.amf.v3
 
-import com.pedro.rtmp.utils.readUntil
+import com.abolfazlirani.rtmp.utils.readUntil
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

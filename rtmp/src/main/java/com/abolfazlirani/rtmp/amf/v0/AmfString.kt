@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.amf.v0
+package com.abolfazlirani.rtmp.amf.v0
 
-import com.pedro.rtmp.utils.readUInt16
-import com.pedro.rtmp.utils.readUntil
-import com.pedro.rtmp.utils.writeUInt16
+import com.abolfazlirani.rtmp.utils.readUInt16
+import com.abolfazlirani.rtmp.utils.readUntil
+import com.abolfazlirani.rtmp.utils.writeUInt16
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.utils
+package com.abolfazlirani.rtmp.utils
 
 /**
  * Created by pedro on 26/04/21.

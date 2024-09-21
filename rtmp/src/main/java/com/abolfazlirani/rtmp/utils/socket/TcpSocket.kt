@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.utils.socket
+package com.abolfazlirani.rtmp.utils.socket
 
-import com.pedro.rtmp.utils.TLSSocketFactory
+import com.abolfazlirani.rtmp.utils.TLSSocketFactory
 import java.io.*
 import java.net.InetSocketAddress
 import java.net.Socket

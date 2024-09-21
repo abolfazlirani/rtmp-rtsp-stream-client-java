@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtsp.utils
+package com.abolfazlirani.rtsp.utils
 
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals

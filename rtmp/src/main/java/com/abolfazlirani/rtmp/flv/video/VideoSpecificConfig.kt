@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.flv.video
+package com.abolfazlirani.rtmp.flv.video
 
 import java.nio.ByteBuffer
 

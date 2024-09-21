@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp.message.command
+package com.abolfazlirani.rtmp.rtmp.message.command
 
-import com.pedro.rtmp.rtmp.message.BasicHeader
-import com.pedro.rtmp.rtmp.message.RtmpMessage
+import com.abolfazlirani.rtmp.rtmp.message.BasicHeader
+import com.abolfazlirani.rtmp.rtmp.message.RtmpMessage
 
 /**
  * Created by pedro on 8/04/21.

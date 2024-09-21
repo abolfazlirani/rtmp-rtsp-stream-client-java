@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp.chunk
+package com.abolfazlirani.rtmp.rtmp.chunk
 
 /**
  * Created by pedro on 21/04/21.

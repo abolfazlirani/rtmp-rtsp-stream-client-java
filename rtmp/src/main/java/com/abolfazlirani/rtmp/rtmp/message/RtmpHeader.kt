@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp.message
+package com.abolfazlirani.rtmp.rtmp.message
 
-import com.pedro.rtmp.rtmp.chunk.ChunkType
-import com.pedro.rtmp.utils.*
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkType
+import com.abolfazlirani.rtmp.utils.*
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

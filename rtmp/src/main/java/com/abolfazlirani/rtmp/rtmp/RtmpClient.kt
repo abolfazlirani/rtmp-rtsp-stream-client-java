@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp
+package com.abolfazlirani.rtmp.rtmp
 
 import android.media.MediaCodec
 import android.util.Log
-import com.pedro.rtmp.amf.AmfVersion
-import com.pedro.rtmp.amf.v0.AmfNumber
-import com.pedro.rtmp.amf.v0.AmfObject
-import com.pedro.rtmp.amf.v0.AmfString
-import com.pedro.rtmp.flv.video.ProfileIop
-import com.pedro.rtmp.rtmp.message.*
-import com.pedro.rtmp.rtmp.message.command.Command
-import com.pedro.rtmp.rtmp.message.control.Type
-import com.pedro.rtmp.rtmp.message.control.UserControl
-import com.pedro.rtmp.utils.AuthUtil
-import com.pedro.rtmp.utils.ConnectCheckerRtmp
-import com.pedro.rtmp.utils.RtmpConfig
-import com.pedro.rtmp.utils.socket.RtmpSocket
-import com.pedro.rtmp.utils.socket.TcpSocket
-import com.pedro.rtmp.utils.socket.TcpTunneledSocket
+import com.abolfazlirani.rtmp.amf.AmfVersion
+import com.abolfazlirani.rtmp.amf.v0.AmfNumber
+import com.abolfazlirani.rtmp.amf.v0.AmfObject
+import com.abolfazlirani.rtmp.amf.v0.AmfString
+import com.abolfazlirani.rtmp.flv.video.ProfileIop
+import com.abolfazlirani.rtmp.rtmp.message.*
+import com.abolfazlirani.rtmp.rtmp.message.command.Command
+import com.abolfazlirani.rtmp.rtmp.message.control.Type
+import com.abolfazlirani.rtmp.rtmp.message.control.UserControl
+import com.abolfazlirani.rtmp.utils.AuthUtil
+import com.abolfazlirani.rtmp.utils.ConnectCheckerRtmp
+import com.abolfazlirani.rtmp.utils.RtmpConfig
+import com.abolfazlirani.rtmp.utils.socket.RtmpSocket
+import com.abolfazlirani.rtmp.utils.socket.TcpSocket
+import com.abolfazlirani.rtmp.utils.socket.TcpTunneledSocket
 import java.io.*
 import java.net.*
 import java.nio.ByteBuffer

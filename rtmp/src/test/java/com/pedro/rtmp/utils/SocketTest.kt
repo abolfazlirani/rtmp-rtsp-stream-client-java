@@ -1,6 +1,6 @@
-package com.pedro.rtmp.utils
+package com.abolfazlirani.rtmp.utils
 
-import com.pedro.rtmp.utils.socket.TcpSocket
+import com.abolfazlirani.rtmp.utils.socket.TcpSocket
 import org.junit.Test
 
 class SocketTest {

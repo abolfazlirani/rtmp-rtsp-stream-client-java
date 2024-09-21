@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.utils
+package com.abolfazlirani.rtmp.utils
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp.message.control
+package com.abolfazlirani.rtmp.rtmp.message.control
 
 /**
  * Created by pedro on 21/04/21.

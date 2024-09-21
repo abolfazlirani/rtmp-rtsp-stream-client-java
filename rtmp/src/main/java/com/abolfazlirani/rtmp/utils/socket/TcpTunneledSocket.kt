@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.utils.socket
+package com.abolfazlirani.rtmp.utils.socket
 
 import android.util.Log
 import java.io.*

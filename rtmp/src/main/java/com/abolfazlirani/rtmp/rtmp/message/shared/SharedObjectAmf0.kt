@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp.message.shared
+package com.abolfazlirani.rtmp.rtmp.message.shared
 
-import com.pedro.rtmp.rtmp.message.MessageType
+import com.abolfazlirani.rtmp.rtmp.message.MessageType
 
 /**
  * Created by pedro on 21/04/21.

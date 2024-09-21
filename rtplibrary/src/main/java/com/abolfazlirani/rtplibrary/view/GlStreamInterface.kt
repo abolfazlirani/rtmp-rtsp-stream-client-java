@@ -1,4 +1,4 @@
-package com.pedro.rtplibrary.view
+package com.abolfazlirani.rtplibrary.view
 
 import android.content.Context
 import android.graphics.Point
@@ -7,13 +7,13 @@ import android.graphics.SurfaceTexture.OnFrameAvailableListener
 import android.os.Build
 import android.view.Surface
 import androidx.annotation.RequiresApi
-import com.pedro.encoder.input.gl.FilterAction
-import com.pedro.encoder.input.gl.SurfaceManager
-import com.pedro.encoder.input.gl.render.MainRender
-import com.pedro.encoder.input.gl.render.filters.BaseFilterRender
-import com.pedro.encoder.input.video.CameraHelper
-import com.pedro.encoder.input.video.FpsLimiter
-import com.pedro.rtplibrary.util.Filter
+import com.abolfazlirani.encoder.input.gl.FilterAction
+import com.abolfazlirani.encoder.input.gl.SurfaceManager
+import com.abolfazlirani.encoder.input.gl.render.MainRender
+import com.abolfazlirani.encoder.input.gl.render.filters.BaseFilterRender
+import com.abolfazlirani.encoder.input.video.CameraHelper
+import com.abolfazlirani.encoder.input.video.FpsLimiter
+import com.abolfazlirani.rtplibrary.util.Filter
 import java.util.concurrent.BlockingQueue
 import java.util.concurrent.LinkedBlockingQueue
 import java.util.concurrent.Semaphore

@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp
+package com.abolfazlirani.rtmp.rtmp
 
 import android.media.MediaCodec
 import android.util.Log
-import com.pedro.rtmp.flv.FlvPacket
-import com.pedro.rtmp.flv.FlvType
-import com.pedro.rtmp.flv.audio.AacPacket
-import com.pedro.rtmp.flv.audio.AudioPacketCallback
-import com.pedro.rtmp.flv.video.H264Packet
-import com.pedro.rtmp.flv.video.ProfileIop
-import com.pedro.rtmp.flv.video.VideoPacketCallback
-import com.pedro.rtmp.utils.BitrateManager
-import com.pedro.rtmp.utils.ConnectCheckerRtmp
-import com.pedro.rtmp.utils.socket.RtmpSocket
+import com.abolfazlirani.rtmp.flv.FlvPacket
+import com.abolfazlirani.rtmp.flv.FlvType
+import com.abolfazlirani.rtmp.flv.audio.AacPacket
+import com.abolfazlirani.rtmp.flv.audio.AudioPacketCallback
+import com.abolfazlirani.rtmp.flv.video.H264Packet
+import com.abolfazlirani.rtmp.flv.video.ProfileIop
+import com.abolfazlirani.rtmp.flv.video.VideoPacketCallback
+import com.abolfazlirani.rtmp.utils.BitrateManager
+import com.abolfazlirani.rtmp.utils.ConnectCheckerRtmp
+import com.abolfazlirani.rtmp.utils.socket.RtmpSocket
 import java.nio.ByteBuffer
 import java.util.concurrent.*
 

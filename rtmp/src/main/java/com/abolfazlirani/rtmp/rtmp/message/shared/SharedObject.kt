@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.pedro.rtmp.rtmp.message.shared
+package com.abolfazlirani.rtmp.rtmp.message.shared
 
-import com.pedro.rtmp.rtmp.chunk.ChunkStreamId
-import com.pedro.rtmp.rtmp.chunk.ChunkType
-import com.pedro.rtmp.rtmp.message.BasicHeader
-import com.pedro.rtmp.rtmp.message.RtmpMessage
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkStreamId
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkType
+import com.abolfazlirani.rtmp.rtmp.message.BasicHeader
+import com.abolfazlirani.rtmp.rtmp.message.RtmpMessage
 import java.io.InputStream
 
 /**

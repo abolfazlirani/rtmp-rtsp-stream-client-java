@@ -1,17 +1,17 @@
-package com.pedro.rtplibrary.rtsp
+package com.abolfazlirani.rtplibrary.rtsp
 
 import android.content.Context
 import android.media.MediaCodec
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.pedro.encoder.utils.CodecUtil
-import com.pedro.rtplibrary.base.StreamBase
-import com.pedro.rtplibrary.util.sources.AudioManager
-import com.pedro.rtplibrary.util.sources.VideoManager
-import com.pedro.rtsp.rtsp.Protocol
-import com.pedro.rtsp.rtsp.RtspClient
-import com.pedro.rtsp.rtsp.VideoCodec
-import com.pedro.rtsp.utils.ConnectCheckerRtsp
+import com.abolfazlirani.encoder.utils.CodecUtil
+import com.abolfazlirani.rtplibrary.base.StreamBase
+import com.abolfazlirani.rtplibrary.util.sources.AudioManager
+import com.abolfazlirani.rtplibrary.util.sources.VideoManager
+import com.abolfazlirani.rtsp.rtsp.Protocol
+import com.abolfazlirani.rtsp.rtsp.RtspClient
+import com.abolfazlirani.rtsp.rtsp.VideoCodec
+import com.abolfazlirani.rtsp.utils.ConnectCheckerRtsp
 import java.nio.ByteBuffer
 
 /**

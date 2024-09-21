@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.pedro.rtsp.rtsp
+package com.abolfazlirani.rtsp.rtsp
 
-import com.pedro.rtsp.BuildConfig
-import com.pedro.rtsp.rtsp.commands.Command
-import com.pedro.rtsp.rtsp.commands.CommandParser
-import com.pedro.rtsp.rtsp.commands.Method
+import com.abolfazlirani.rtsp.BuildConfig
+import com.abolfazlirani.rtsp.rtsp.commands.Command
+import com.abolfazlirani.rtsp.rtsp.commands.CommandParser
+import com.abolfazlirani.rtsp.rtsp.commands.Method
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals
 import org.junit.Test
@@ -69,7 +69,7 @@ class CommandParserTest {
     val serverCommand = "RECORD rtsp://192.168.0.196:80/live/pedro RTSP/1.0\r\n" +
         "Range: npt=0.000-\r\n" +
         "CSeq: 5\r\n" +
-        "User-Agent: com.pedro.rtsp 2.1.7\r\n" +
+        "User-Agent: com.abolfazlirani.rtsp 2.1.7\r\n" +
         "Session: $expectedSessionId;timeout=30\r\n\r\n"
     val command = Command(Method.UNKNOWN, 1, 200, serverCommand)
     val result = commandParser.getSessionId(command)
@@ -83,7 +83,7 @@ class CommandParserTest {
             "Range: npt=0.000-\r\n" +
             "CSeq: 5\r\n" +
             "Session: $expectedSessionId\r\n" +
-            "User-Agent: com.pedro.rtsp 2.1.7\r\n\r\n"
+            "User-Agent: com.abolfazlirani.rtsp 2.1.7\r\n\r\n"
     val command = Command(Method.UNKNOWN, 1, 200, serverCommand)
     val result = commandParser.getSessionId(command)
     assertEquals(expectedSessionId, result)

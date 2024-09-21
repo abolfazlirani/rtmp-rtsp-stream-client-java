@@ -1,15 +1,15 @@
-package com.pedro.rtmp.rtmp
+package com.abolfazlirani.rtmp.rtmp
 
 import android.util.Log
-import com.pedro.rtmp.amf.v3.Amf3Dictionary
-import com.pedro.rtmp.amf.v3.Amf3Null
-import com.pedro.rtmp.amf.v3.Amf3Object
-import com.pedro.rtmp.amf.v3.Amf3String
-import com.pedro.rtmp.rtmp.chunk.ChunkStreamId
-import com.pedro.rtmp.rtmp.chunk.ChunkType
-import com.pedro.rtmp.rtmp.message.BasicHeader
-import com.pedro.rtmp.rtmp.message.command.CommandAmf3
-import com.pedro.rtmp.rtmp.message.data.DataAmf3
+import com.abolfazlirani.rtmp.amf.v3.Amf3Dictionary
+import com.abolfazlirani.rtmp.amf.v3.Amf3Null
+import com.abolfazlirani.rtmp.amf.v3.Amf3Object
+import com.abolfazlirani.rtmp.amf.v3.Amf3String
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkStreamId
+import com.abolfazlirani.rtmp.rtmp.chunk.ChunkType
+import com.abolfazlirani.rtmp.rtmp.message.BasicHeader
+import com.abolfazlirani.rtmp.rtmp.message.command.CommandAmf3
+import com.abolfazlirani.rtmp.rtmp.message.data.DataAmf3
 import java.io.OutputStream
 
 class CommandsManagerAmf3: CommandsManager() {
